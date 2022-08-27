@@ -19,6 +19,9 @@
     "cypress-xpath": "^2.0.1",
     "esbuild": "^0.14.48",
     "multiple-cucumber-html-reporter": "^1.21.6"
-  }
+  },
+"cypress-cucumber-preprocessor": {
+  "stepDefinitions": "cypress/e2e/Common/step_definitions/Web_Interface/**/*.{js,ts}"
+}
   
 }
